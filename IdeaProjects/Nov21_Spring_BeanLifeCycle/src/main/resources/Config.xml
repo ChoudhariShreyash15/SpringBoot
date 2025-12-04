@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+         http://www.springframework.org/schema/beans
+         https://www.springframework.org/schema/beans/spring-beans.xsd
+         http://www.springframework.org/schema/context
+         https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- Component scanning for annotations like @Component, @Service, @Repository, etc. -->
+    <bean id="pt" class="com.example.Nov21_Spring_BeanLifeCycle.SpringConfiguration.XML.component.PtTeacher"/>
+    <bean id="e" class="com.example.Nov21_Spring_BeanLifeCycle.SpringConfiguration.XML.component.EngTeacher"/>
+    <bean id="p" class="com.example.Nov21_Spring_BeanLifeCycle.SpringConfiguration.XML.component.Principal">
+        <property name="school" ref="e"></property>
+    </bean>
+</beans>

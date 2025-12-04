@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: Nov26_OMS_OrderManagementSystem

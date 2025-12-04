@@ -1,0 +1,12 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: Oct9_TypesOfExchange_RabbitMQ
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest

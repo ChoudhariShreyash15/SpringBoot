@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b0e115a0-c6c1-46bc-acc6-ee35522621a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Nov18_Serialization_Deserialization_Externalization/src/main/java/com/example/Nov18_Serialization_Deserialization_Externalization/Deserialization/DeserializeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Nov18_Serialization_Deserialization_Externalization/src/main/java/com/example/Nov18_Serialization_Deserialization_Externalization/Externalization/ExternalizeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Nov18_Serialization_Deserialization_Externalization/src/main/java/com/example/Nov18_Serialization_Deserialization_Externalization/Serialization/SerializeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Nov18_Serialization_Deserialization_Externalization/src/main/java/com/example/Nov18_Serialization_Deserialization_Externalization/Serialization/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Nov21_Spring_BeanLifeCycle/src/main/java/com/example/Nov21_Spring_BeanLifeCycle/BeanLifeCycle/component/BeanLifeCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Nov21_Spring_BeanLifeCycle/src/main/java/com/example/Nov21_Spring_BeanLifeCycle/BeanLifeCycle/component/CustomBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Nov21_Spring_BeanLifeCycle/src/main/java/com/example/Nov21_Spring_BeanLifeCycle/BeanLifeCycle/configuration/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Nov21_Spring_BeanLifeCycle/src/main/java/com/example/Nov21_Spring_BeanLifeCycle/SpringConfiguration/Annotation/component/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Nov21_Spring_BeanLifeCycle/src/main/java/com/example/Nov21_Spring_BeanLifeCycle/SpringConfiguration/Annotation/component/HatchBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Nov21_Spring_BeanLifeCycle/src/main/java/com/example/Nov21_Spring_BeanLifeCycle/SpringConfiguration/Annotation/component/Sedan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Nov21_Spring_BeanLifeCycle/src/main/java/com/example/Nov21_Spring_BeanLifeCycle/SpringConfiguration/Annotation/configuration/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Nov21_Spring_BeanLifeCycle/src/main/java/com/example/Nov21_Spring_BeanLifeCycle/SpringConfiguration/Annotation/repo/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Nov21_Spring_BeanLifeCycle/src/main/java/com/example/Nov21_Spring_BeanLifeCycle/SpringConfiguration/Java/component/DieselEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Nov21_Spring_BeanLifeCycle/src/main/java/com/example/Nov21_Spring_BeanLifeCycle/SpringConfiguration/Java/component/PetrolEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Nov21_Spring_BeanLifeCycle/src/main/java/com/example/Nov21_Spring_BeanLifeCycle/SpringConfiguration/Java/component/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Nov21_Spring_BeanLifeCycle/src/main/java/com/example/Nov21_Spring_BeanLifeCycle/SpringConfiguration/Java/configuration/JavaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Nov21_Spring_BeanLifeCycle/src/main/java/com/example/Nov21_Spring_BeanLifeCycle/SpringConfiguration/Java/repo/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Nov21_Spring_BeanLifeCycle/src/main/java/com/example/Nov21_Spring_BeanLifeCycle/SpringConfiguration/XML/component/EngTeacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Nov21_Spring_BeanLifeCycle/src/main/java/com/example/Nov21_Spring_BeanLifeCycle/SpringConfiguration/XML/component/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Nov21_Spring_BeanLifeCycle/src/main/java/com/example/Nov21_Spring_BeanLifeCycle/SpringConfiguration/XML/component/PtTeacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Nov21_Spring_BeanLifeCycle/src/main/java/com/example/Nov21_Spring_BeanLifeCycle/SpringConfiguration/XML/repo/School.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Nov21_Spring_BeanLifeCycle/src/main/resources/Config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Nov26_OMS_OrderManagementSystem/src/main/java/com/example/Nov26_OMS_OrderManagementSystem/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Nov26_OMS_OrderManagementSystem/src/main/java/com/example/Nov26_OMS_OrderManagementSystem/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Nov26_OMS_OrderManagementSystem/src/main/java/com/example/Nov26_OMS_OrderManagementSystem/repo/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Nov26_OMS_OrderManagementSystem/src/main/java/com/example/Nov26_OMS_OrderManagementSystem/repo/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aug26_ReadingMail/src/main/java/com/example/Aug26_ReadingMail/controller/MailReadingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Aug26_ReadingMail/src/main/java/com/example/Aug26_ReadingMail/controller/MailReadingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aug4_SpringAnnotationBasedConfiguration/src/main/java/org/example/repo/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Aug4_SpringAnnotationBasedConfiguration/src/main/java/org/example/repo/School.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aug5_SpringConfiguration/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Aug5_SpringConfiguration/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aug5_SpringConfiguration/src/main/java/org/example/JavaBasedConfiguration/component/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Aug5_SpringConfiguration/src/main/java/org/example/JavaBasedConfiguration/component/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aug5_SpringConfiguration/src/main/java/org/example/xml/repo/Engine1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Aug5_SpringConfiguration/src/main/java/org/example/xml/repo/Engine1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aug6_SpringBootProject_Sample/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Aug6_SpringBootProject_Sample/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aug6_SpringBootProject_Sample/src/main/java/com/example/SpringBoot2/jackson/ObjectMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Aug6_SpringBootProject_Sample/src/main/java/com/example/SpringBoot2/jackson/ObjectMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aug8_MappingSpringBoot/src/main/java/com/example/SpringBootMapping/entity/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Aug8_MappingSpringBoot/src/main/java/com/example/SpringBootMapping/entity/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Learning/src/String/Basic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Learning/src/String/Palindrome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Learning/src/String/StringIntegerPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Learning/src/String/StringMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Learning/src/String/Vowel_Consonant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Learning/src/String/WordsCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Learning/src/String/stringFunctions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Learning/src/String/stringReversal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oct27_Java8Features/src/main/java/org/example/StreamAPI/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Oct27_Java8Features/src/main/java/org/example/StreamAPI/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sept1_JavaBasedConfiguration/src/main/java/com/example/Sept1_JavaBasedConfiguration/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sept1_JavaBasedConfiguration/src/main/java/com/example/Sept1_JavaBasedConfiguration/config/Config.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="366NJdB1CnMQRbMQTEdTUIwrQ4d" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/Shreyash_1227/Java/IdeaProjects/IdeaProjects/Sept16_Microservices"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0e115a0-c6c1-46bc-acc6-ee35522621a5" name="Changes" comment="" />
+      <created>1764322990661</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1764322990661</updated>
+    </task>
+    <servers />
+  </component>
+</project>

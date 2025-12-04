@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0d90014f-334a-4286-bb7d-ec144591c2ad" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Learning/src/Number/EvenOdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Learning/src/Number/PrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Learning/src/Pattern/InvertedTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Learning/src/Pattern/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Learning/src/Pattern/Triangle4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Learning/src/Pattern/TriangleWithSpace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sept2_DesignPatterns/src/main/java/com/example/Sept2_DesignPatterns/creational/BuilderPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sept2_DesignPatterns/src/main/java/com/example/Sept2_DesignPatterns/creational/FactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sept2_DesignPatterns/src/main/java/com/example/Sept2_DesignPatterns/creational/Prototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sept2_DesignPatterns/src/main/java/com/example/Sept2_DesignPatterns/creational/SingleTon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sept2_DesignPatterns/src/main/java/com/example/Sept2_DesignPatterns/structural/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sept2_DesignPatterns/src/main/java/com/example/Sept2_DesignPatterns/structural/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sept3_DecoratorSpringBoot/src/main/java/com/example/Sept3_DecoratorSpringBoot/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sept3_DecoratorSpringBoot/src/main/java/com/example/Sept3_DecoratorSpringBoot/repo/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sept3_DecoratorSpringBoot/src/main/java/com/example/Sept3_DecoratorSpringBoot/service/BasicPaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sept3_DecoratorSpringBoot/src/main/java/com/example/Sept3_DecoratorSpringBoot/service/decorator/LoggingPaymentDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sept9_SpringSecurity/src/main/java/com/example/Sept9_SpringSecurity/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sept9_SpringSecurity/src/main/java/com/example/Sept9_SpringSecurity/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sept9_SpringSecurity/src/main/java/com/example/Sept9_SpringSecurity/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sept9_SpringSecurity/src/main/java/com/example/Sept9_SpringSecurity/dto/AuthRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sept9_SpringSecurity/src/main/java/com/example/Sept9_SpringSecurity/dto/TokenDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sept9_SpringSecurity/src/main/java/com/example/Sept9_SpringSecurity/dto/UserRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sept9_SpringSecurity/src/main/java/com/example/Sept9_SpringSecurity/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sept9_SpringSecurity/src/main/java/com/example/Sept9_SpringSecurity/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sept9_SpringSecurity/src/main/java/com/example/Sept9_SpringSecurity/security/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sept9_SpringSecurity/src/main/java/com/example/Sept9_SpringSecurity/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sept9_SpringSecurity/src/main/java/com/example/Sept9_SpringSecurity/security/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sept9_SpringSecurity/src/main/java/com/example/Sept9_SpringSecurity/security/SecurityFilterChainConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sept9_SpringSecurity/src/main/java/com/example/Sept9_SpringSecurity/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sept9_SpringSecurity/src/main/java/com/example/Sept9_SpringSecurity/service/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sept9_SpringSecurity/src/main/java/com/example/Sept9_SpringSecurity/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sept9_SpringSecurity/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/Learning/src/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/AutoBoxing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/BigThree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/CheckAge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/CheckDiscount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/CheckDuplicatesInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/CheckNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/EComStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/EvenOdd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/Factorial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/LambdaFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/MainLambda.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/PrimeNo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/ReverseArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/ReverseOfNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/Sample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/String/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/Learning/src/String/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/StringIntegerPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/StringMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/SumOfArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/TypeCasting_Explicit_Implicit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/UnBoxing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/UpCasting_DownCasting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/Vowel_Consonant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/areaRect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/areaofCircle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/bigTen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/secondMax.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/smallTen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/stringFunctions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/stringReversal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/sumEvenOdd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/sumTen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept01_SpringRevision/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept2_DesignPatterns/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept2_DesignPatterns/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Sept2_DesignPatterns/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept2_DesignPatterns/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/Sept2_DesignPatterns/HELP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept2_DesignPatterns/target/classes/com/example/Sept2_DesignPatterns/Sept2DesignPatternsApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept2_DesignPatterns/target/classes/com/example/Sept2_DesignPatterns/behavioural/Coffee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept2_DesignPatterns/target/classes/com/example/Sept2_DesignPatterns/behavioural/CoffeeDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept2_DesignPatterns/target/classes/com/example/Sept2_DesignPatterns/behavioural/DecoratorDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept2_DesignPatterns/target/classes/com/example/Sept2_DesignPatterns/behavioural/MilkDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept2_DesignPatterns/target/classes/com/example/Sept2_DesignPatterns/behavioural/SimpleCoffee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept2_DesignPatterns/target/classes/com/example/Sept2_DesignPatterns/behavioural/SugarDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept2_DesignPatterns/target/classes/com/example/Sept2_DesignPatterns/creational/Animal$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept2_DesignPatterns/target/classes/com/example/Sept2_DesignPatterns/creational/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/Sept2_DesignPatterns/target/classes/com/example/Sept2_DesignPatterns/creational/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept2_DesignPatterns/target/classes/com/example/Sept2_DesignPatterns/creational/BuilderPattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/Sept2_DesignPatterns/target/classes/com/example/Sept2_DesignPatterns/creational/BuilderPattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept2_DesignPatterns/target/classes/com/example/Sept2_DesignPatterns/creational/Prototype.class" beforeDir="false" afterPath="$PROJECT_DIR$/Sept2_DesignPatterns/target/classes/com/example/Sept2_DesignPatterns/creational/Prototype.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept2_DesignPatterns/target/classes/com/example/Sept2_DesignPatterns/creational/SingleTon.class" beforeDir="false" afterPath="$PROJECT_DIR$/Sept2_DesignPatterns/target/classes/com/example/Sept2_DesignPatterns/creational/SingleTon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept2_DesignPatterns/target/classes/com/example/Sept2_DesignPatterns/creational/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/Sept2_DesignPatterns/target/classes/com/example/Sept2_DesignPatterns/creational/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept2_DesignPatterns/target/classes/com/example/Sept2_DesignPatterns/designPattern/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept2_DesignPatterns/target/classes/com/example/Sept2_DesignPatterns/designPattern/FactoryBeanExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept2_DesignPatterns/target/classes/com/example/Sept2_DesignPatterns/designPattern/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept2_DesignPatterns/target/classes/com/example/Sept2_DesignPatterns/structural/Coffee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept2_DesignPatterns/target/classes/com/example/Sept2_DesignPatterns/structural/CoffeeDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept2_DesignPatterns/target/classes/com/example/Sept2_DesignPatterns/structural/Decorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept2_DesignPatterns/target/classes/com/example/Sept2_DesignPatterns/structural/MilkDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept2_DesignPatterns/target/classes/com/example/Sept2_DesignPatterns/structural/SimpleCoffee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept2_DesignPatterns/target/classes/com/example/Sept2_DesignPatterns/structural/SugarDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept3_DecoratorSpringBoot/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept3_DecoratorSpringBoot/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Sept3_DecoratorSpringBoot/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept3_DecoratorSpringBoot/target/classes/com/example/Sept3_DecoratorSpringBoot/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Sept3_DecoratorSpringBoot/target/classes/com/example/Sept3_DecoratorSpringBoot/controller/PaymentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept3_DecoratorSpringBoot/target/classes/com/example/Sept3_DecoratorSpringBoot/entity/Payment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept3_DecoratorSpringBoot/target/classes/com/example/Sept3_DecoratorSpringBoot/service/BasicPaymentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Sept3_DecoratorSpringBoot/target/classes/com/example/Sept3_DecoratorSpringBoot/service/BasicPaymentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept3_DecoratorSpringBoot/target/classes/com/example/Sept3_DecoratorSpringBoot/service/loggingPaymentDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept3_DecoratorSpringBoot/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sept3_DecoratorSpringBoot/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/src/main/java/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/src/main/java/org/example/components/EngTeacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/src/main/java/org/example/components/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/src/main/java/org/example/components/PtTeacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/src/main/java/org/example/configuration/SpringConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/src/main/java/org/example/repo/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBeans/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBeans/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBeans/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBeans/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBeans/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBeans/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBeans/src/main/java/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBeans/src/main/java/org/example/JavaBasedConfiguration/component/DieselEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBeans/src/main/java/org/example/JavaBasedConfiguration/component/PetrolEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBeans/src/main/java/org/example/JavaBasedConfiguration/component/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBeans/src/main/java/org/example/JavaBasedConfiguration/configuration/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBeans/src/main/java/org/example/JavaBasedConfiguration/repo/Engine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBeans/src/main/java/org/example/xml/component/Diesel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBeans/src/main/java/org/example/xml/component/Petrol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBeans/src/main/java/org/example/xml/component/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBeans/src/main/java/org/example/xml/repo/Engine1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBeans/src/main/resources/Config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBeans/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/person.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/src/main/java/com/example/SpringBoot2/SpringBoot2Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/src/main/java/com/example/SpringBoot2/controller/EidikoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/src/main/java/com/example/SpringBoot2/entity/Eidiko.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/src/main/java/com/example/SpringBoot2/exception/EmployeeNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/src/main/java/com/example/SpringBoot2/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/src/main/java/com/example/SpringBoot2/fileHandling/Code.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/src/main/java/com/example/SpringBoot2/fileHandling/Practice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/src/main/java/com/example/SpringBoot2/fileHandling/employee.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/src/main/java/com/example/SpringBoot2/fileHandling/person.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/src/main/java/com/example/SpringBoot2/fileHandling2/FileHandling.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/src/main/java/com/example/SpringBoot2/fileHandling2/person.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/src/main/java/com/example/SpringBoot2/jackson/ObjectMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/src/main/java/com/example/SpringBoot2/mailReading/ReadMailConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/src/main/java/com/example/SpringBoot2/mailReading/ReadMailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/src/main/java/com/example/SpringBoot2/mailSending/EmailConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/src/main/java/com/example/SpringBoot2/mailSending/EmailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/src/main/java/com/example/SpringBoot2/modelMapper_dto/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/src/main/java/com/example/SpringBoot2/modelMapper_dto/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/src/main/java/com/example/SpringBoot2/modelMapper_dto/dto/UserDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/src/main/java/com/example/SpringBoot2/modelMapper_dto/entity/UserEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/src/main/java/com/example/SpringBoot2/modelMapper_dto/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/src/main/java/com/example/SpringBoot2/modelMapper_dto/startDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/src/main/java/com/example/SpringBoot2/repo/EidikoRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/src/main/java/com/example/SpringBoot2/response/ResponseHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/src/main/java/com/example/SpringBoot2/service/EidikoServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/src/main/resources/jackson.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/src/main/resources/javaObject.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot2/src/test/java/com/example/SpringBoot2/SpringBoot2ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMapping/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMapping/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMapping/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMapping/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMapping/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMapping/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMapping/src/main/java/com/example/SpringBootMapping/SpringBootMappingApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMapping/src/main/java/com/example/SpringBootMapping/controller/PersonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMapping/src/main/java/com/example/SpringBootMapping/entity/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMapping/src/main/java/com/example/SpringBootMapping/entity/Colony.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMapping/src/main/java/com/example/SpringBootMapping/entity/Flat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMapping/src/main/java/com/example/SpringBootMapping/entity/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMapping/src/main/java/com/example/SpringBootMapping/repo/AddressRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMapping/src/main/java/com/example/SpringBootMapping/repo/ColonyRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMapping/src/main/java/com/example/SpringBootMapping/repo/FlatRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMapping/src/main/java/com/example/SpringBootMapping/repo/PersonRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMapping/src/main/java/com/example/SpringBootMapping/service/PersonService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMapping/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMapping/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMapping/src/test/java/com/example/SpringBootMapping/SpringBootMappingApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot_Connecting_Multiple_Databases/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot_Connecting_Multiple_Databases/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot_Connecting_Multiple_Databases/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot_Connecting_Multiple_Databases/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot_Connecting_Multiple_Databases/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot_Connecting_Multiple_Databases/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot_Connecting_Multiple_Databases/src/main/java/com/example/SpringBoot_Connecting_Multiple_Databases/SpringBootConnectingMultipleDatabasesApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot_Connecting_Multiple_Databases/src/main/java/com/example/SpringBoot_Connecting_Multiple_Databases/config/MysqlConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot_Connecting_Multiple_Databases/src/main/java/com/example/SpringBoot_Connecting_Multiple_Databases/config/OracleConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot_Connecting_Multiple_Databases/src/main/java/com/example/SpringBoot_Connecting_Multiple_Databases/mysqlEntity/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot_Connecting_Multiple_Databases/src/main/java/com/example/SpringBoot_Connecting_Multiple_Databases/mysqlRepo/PersonRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot_Connecting_Multiple_Databases/src/main/java/com/example/SpringBoot_Connecting_Multiple_Databases/oracleEntity/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot_Connecting_Multiple_Databases/src/main/java/com/example/SpringBoot_Connecting_Multiple_Databases/oracleRepo/StudentRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot_Connecting_Multiple_Databases/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot_Connecting_Multiple_Databases/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot_Connecting_Multiple_Databases/src/test/java/com/example/SpringBoot_Connecting_Multiple_Databases/SpringBootConnectingMultipleDatabasesApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="32mBwbJZdab6XNDISrxQXSUtfXd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/Shreyash_1227/Java/IdeaProjects/IdeaProjects"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d90014f-334a-4286-bb7d-ec144591c2ad" name="Changes" comment="" />
+      <created>1758016106860</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758016106860</updated>
+    </task>
+    <servers />
+  </component>
+</project>

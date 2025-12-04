@@ -1,0 +1,22 @@
+package org.example;
+
+//import org.example.JavaBasedConfiguration.component.Vehicle;
+import org.example.JavaBasedConfiguration.configuration.Config;
+import org.example.xml.component.Vehicle;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+//        ApplicationContext ap = new AnnotationConfigApplicationContext(Config.class);
+//        Vehicle v = ap.getBean(Vehicle.class);
+//        v.engineType();
+
+        ApplicationContext applicationContext=new ClassPathXmlApplicationContext("Config.xml");
+        Vehicle vehicle=applicationContext.getBean(org.example.xml.component.Vehicle.class);
+        vehicle.info();
+    }
+}
