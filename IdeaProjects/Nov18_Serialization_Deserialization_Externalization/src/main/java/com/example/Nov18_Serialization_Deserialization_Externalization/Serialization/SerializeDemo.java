@@ -6,19 +6,24 @@ public class SerializeDemo {
     public static void main(String[] args) throws Exception {
         Student s = new Student(1, "Mahesh");
 
-        ObjectOutputStream oos = new ObjectOutputStream(
-                new FileOutputStream("E:/student.ser"));
-        oos.writeObject(s);
-        oos.close();
+        //Serialization
+        try(ObjectOutputStream oos = new ObjectOutputStream(
+                new FileOutputStream("E:/student.ser"))) {
+            oos.writeObject(s);
+            oos.close();
+            System.out.println("Object Serialized");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
 
-        System.out.println("Object Serialized");
-
-        ObjectInputStream ois = new ObjectInputStream(
-                new FileInputStream("student.ser"));
-        Student s1 = (Student) ois.readObject();
-        ois.close();
-
-        System.out.println("Deserialized: " + s1.name);
-
+        //Deserialization
+        try(ObjectInputStream ois = new ObjectInputStream(
+                new FileInputStream("student.ser"))) {
+            Student s1 = (Student) ois.readObject();
+            ois.close();
+            System.out.println("Deserialized: " + s1.name);
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

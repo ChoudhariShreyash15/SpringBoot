@@ -27,7 +27,7 @@ public class Nov21SpringBeanLifeCycleApplication {
 //		Vehicle bean1 = applicationContext1.getBean(Vehicle.class);
 //		bean1.engineType();
 
-		//Annotation Based
+		//Annlotation Based
 //		ApplicationContext applicationContext2 = new AnnotationConfigApplicationContext(Config.class);
 //		Car bean2 = applicationContext2.getBean(Car.class);
 //		bean2.carType();

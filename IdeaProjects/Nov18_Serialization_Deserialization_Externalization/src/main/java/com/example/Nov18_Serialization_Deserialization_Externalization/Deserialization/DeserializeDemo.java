@@ -12,7 +12,7 @@ public class DeserializeDemo {
         Student s1 = (Student) ois.readObject();
         ois.close();
 
-        System.out.println("Deserialized: " + s1.id);
+        System.out.println("Deserialized: " + s1.name);
 
     }
 }
