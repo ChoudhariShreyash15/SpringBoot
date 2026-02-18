@@ -1,4 +1,4 @@
-package com.example.Oct8_RabbitMQ.Service.Producer;
+package com.example.Oct8_RabbitMQ.publisher.Producer;
 
 import com.example.Oct8_RabbitMQ.dto.User;
 import org.slf4j.Logger;

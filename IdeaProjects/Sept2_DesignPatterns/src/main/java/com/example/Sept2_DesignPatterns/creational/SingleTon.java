@@ -4,10 +4,7 @@ public class SingleTon {
 
     static SingleTon singleTon;
 
-    private SingleTon()
-    {
-
-    }
+    private SingleTon() {}
 
     static void check()
     {

@@ -3,6 +3,7 @@ package com.example.SpringBoot1.controller;
 import com.example.SpringBoot1.entity.Bank;
 import com.example.SpringBoot1.response.ResponseHandler;
 import com.example.SpringBoot1.services.BankService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

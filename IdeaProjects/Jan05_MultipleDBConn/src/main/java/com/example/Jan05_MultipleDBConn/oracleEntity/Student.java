@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 public class Student {
 
     @Id
-    @SequenceGenerator(name = "sequence", allocationSize = 10)
+    @SequenceGenerator(name = "sequence",initialValue = 1, allocationSize = 20)
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "sequence")
     private Integer id;
     private String name;

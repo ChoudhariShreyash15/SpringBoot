@@ -3,6 +3,7 @@ package com.example.SpringBoot2.jackson;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,20 +11,20 @@ import lombok.NoArgsConstructor;
 import java.io.File;
 import java.io.IOException;
 
-public class ObjectMapper {
+public class JacksonPackage {
     public static void main(String[] args) throws IOException, JsonProcessingException {
-        ObjectMapper jacksonObjectMapper = new ObjectMapper();
+        JacksonPackage jacksonObjectMapper = new JacksonPackage();
 //        jacksonObjectMapper.javaToJson();
 //        jacksonObjectMapper.jsonToJava();
-        jacksonObjectMapper.javaToFile();
-//        jacksonObjectMapper.fileToJava();
+//        jacksonObjectMapper.javaToFile();
+        jacksonObjectMapper.fileToJava();
 //        jacksonObjectMapper.check();
 //        jacksonObjectMapper.toStudentDto();
     }
 
     //Java to Json - Object to String
     public void javaToJson() throws JsonProcessingException {
-        com.fasterxml.jackson.databind.ObjectMapper objectMapper = new com.fasterxml.jackson.databind.ObjectMapper();
+        ObjectMapper objectMapper = new  ObjectMapper();
         Student student = new Student(1, "Shreyash", 90);
         String s = objectMapper.writeValueAsString(student);
         System.out.println(s);
@@ -31,7 +32,7 @@ public class ObjectMapper {
 
     //Json to Java - String to Object
     public void jsonToJava() throws JsonProcessingException {
-        com.fasterxml.jackson.databind.ObjectMapper objectMapper = new com.fasterxml.jackson.databind.ObjectMapper();
+        ObjectMapper objectMapper = new ObjectMapper();
         String s = "{\"id\":1,\"name\":\"Shreyash\",\"marks\":90}";
         Student student = objectMapper.readValue(s, Student.class);
         System.out.println(student);
@@ -39,7 +40,7 @@ public class ObjectMapper {
 
     //Java To File
     public void javaToFile() throws IOException {
-        com.fasterxml.jackson.databind.ObjectMapper objectMapper = new com.fasterxml.jackson.databind.ObjectMapper();
+        ObjectMapper objectMapper = new ObjectMapper();
         Student student = new Student(3,"Shreyash",92);
         File file =new File( "E:\\Shreyash_1227\\Java\\IdeaProjects\\IdeaProjects\\Aug6_SpringBootProject_Sample\\src\\main\\resources\\jackson.txt");
         objectMapper.writeValue(file,student);
@@ -47,15 +48,15 @@ public class ObjectMapper {
 
     //File To Java
     public void fileToJava() throws IOException {
-        com.fasterxml.jackson.databind.ObjectMapper objectMapper = new com.fasterxml.jackson.databind.ObjectMapper();
-        String file = "E:\\Shreyash_1227\\Java\\IdeaProjects\\IdeaProjects\\SpringBoot2\\src\\main\\resources\\jackson.txt";
+        ObjectMapper objectMapper = new ObjectMapper();
+        String file = "E:\\Shreyash_1227\\Java\\IdeaProjects\\IdeaProjects\\Aug6_SpringBootProject_Sample\\src\\main\\resources\\jackson.txt";
         Student student = objectMapper.readValue(new File(file), Student.class);
         System.out.println(student);
     }
 
     //Accessing each node using JsonNode
     public void check() throws JsonProcessingException {
-        com.fasterxml.jackson.databind.ObjectMapper objectMapper = new com.fasterxml.jackson.databind.ObjectMapper();
+        ObjectMapper objectMapper = new ObjectMapper();
         JsonNode jsonNode = objectMapper.readTree("{\"id\": 1,\n"
                 + "  \"name\": \"Shreyash\",\n"
                 + "  \"address\": {\n"
@@ -79,7 +80,7 @@ public class ObjectMapper {
 
     //Student To StudentDto
     public void toStudentDto(){
-        com.fasterxml.jackson.databind.ObjectMapper objectMapper = new com.fasterxml.jackson.databind.ObjectMapper();
+        ObjectMapper objectMapper = new ObjectMapper();
         Student student = new Student(3,"Mayank",60);
         objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES,false);
         StudentDto studentDto = objectMapper.convertValue(student, StudentDto.class);

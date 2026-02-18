@@ -1,6 +1,6 @@
-package com.example.Oct8_RabbitMQ.Controller;
+package com.example.Oct8_RabbitMQ.controller;
 
-import com.example.Oct8_RabbitMQ.Service.Producer.MessageProducer;
+import com.example.Oct8_RabbitMQ.publisher.Producer.MessageProducer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

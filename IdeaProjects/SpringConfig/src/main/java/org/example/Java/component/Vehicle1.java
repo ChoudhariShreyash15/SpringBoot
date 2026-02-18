@@ -12,7 +12,7 @@ public class Vehicle1 {
 //    }
 
     @Autowired
-    @Qualifier("tw")
+    @Qualifier()
     public void setXmlConfig(XMLConfig xmlConfig) {
         this.xmlConfig = xmlConfig;
     }

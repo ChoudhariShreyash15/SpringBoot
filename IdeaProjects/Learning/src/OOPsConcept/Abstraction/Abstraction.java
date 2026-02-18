@@ -5,6 +5,7 @@ package OOPsConcept.Abstraction;
          you can override the methods according to your need*/
 
 interface Abstraction {
+
     public void walk();
 
     public void talk();
@@ -13,6 +14,10 @@ interface Abstraction {
 
     public void eat();
 }
+
+//interface check {
+//    abstract void run();
+//}
 
 /* NOTE : More than one abstract method can be present in one abstract class but
           in Functional Interface only one abstract method is allowed to write in one abstract class*/
@@ -26,6 +31,12 @@ abstract class Implementation implements Abstraction {
 
     abstract void w();
 }
+
+//abstract class checks implements check {
+//    public void run(){
+//        System.out.println("OK");
+//    }
+//}
 
 class Impl implements Abstraction {
     @Override

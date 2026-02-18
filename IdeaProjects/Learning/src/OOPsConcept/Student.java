@@ -1,11 +1,11 @@
 package OOPsConcept;
 
-public class Student {
+class Student {
     String name;
     int age;
     int marks;
 
-    public void study(){
+    void study(){
         System.out.println(name + " is Studying");
     }
 }

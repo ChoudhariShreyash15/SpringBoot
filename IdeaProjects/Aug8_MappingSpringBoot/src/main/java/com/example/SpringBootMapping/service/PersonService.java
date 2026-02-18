@@ -21,6 +21,32 @@ public class PersonService {
         this.colonyRepo = colonyRepo;
     }
 
+    public Person getById(int id){
+        return personRepo.findById(822).orElseThrow(() -> new RuntimeException("Not Found"));
+
+    }
+
+//    public Person addPerson(Person person) {
+//
+//        Colony colony = person.getColony();
+//
+//        Colony managedColony = colonyRepo.findByName(colony.getName());
+//
+//        if (managedColony == null) {
+//            managedColony = colonyRepo.save(colony);
+//        }
+//
+//        person.setColony(managedColony);
+//
+//        if (person.getFlats() != null) {
+//            for (Flat flat : person.getFlats()) {
+//                flat.setPerson(person);
+//            }
+//        }
+//
+//        return personRepo.save(person);
+//    }
+
     //POST or add
     public Person addPerson(Person person) {
 //        log.info("person:{}",person);

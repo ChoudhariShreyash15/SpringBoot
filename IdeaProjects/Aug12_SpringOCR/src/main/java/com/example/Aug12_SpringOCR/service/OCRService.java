@@ -8,6 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -24,12 +26,14 @@ public class OCRService {
 
     public void readOcr(MultipartFile multipartFile) throws IOException, TesseractException {
         Tesseract tesseract = new Tesseract();
+        BufferedImage bufferedImage = ImageIO.read(multipartFile.getInputStream());
         tesseract.setDatapath("C:\\Program Files\\Tesseract-OCR\\tessdata");
-        tesseract.setLanguage("hin+eng"); // Hindi + English for mixed text
+        tesseract.setLanguage("eng"); // Hindi + English for mixed text
 
         Path path = Paths.get("ocr.jpg");
         Files.copy(multipartFile.getInputStream(), path, StandardCopyOption.REPLACE_EXISTING);
-        String s = tesseract.doOCR(path.toFile());
+        String s = tesseract.doOCR(bufferedImage);
+//        String s = tesseract.doOCR(path.toFile());
         System.out.println("Extracted Text:\n" + s);
 
         Long aadharNo = extractAadharNumber(s);
@@ -51,6 +55,7 @@ public class OCRService {
         // Match: 4+ spaces 4+ spaces 4 OR 12 continuous digits
         Pattern pattern = Pattern.compile("(\\d{4}\\s\\d{4}\\s\\d{4})|(\\d{12})");
         Matcher matcher = pattern.matcher(text.replaceAll("[^0-9\\s]", "")); // keep digits + spaces only
+        boolean b = matcher.find();
         if (matcher.find()) {
             String number = matcher.group().replaceAll("\\s", "");
             if (number.length() == 12) {

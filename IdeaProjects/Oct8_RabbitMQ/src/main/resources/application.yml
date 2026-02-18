@@ -11,4 +11,4 @@ spring:
     username: guest
     password: guest
 #    queue:
-#      name: demo.queue
+#      name: "queue"

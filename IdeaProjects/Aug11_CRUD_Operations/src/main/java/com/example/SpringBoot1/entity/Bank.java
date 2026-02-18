@@ -12,8 +12,8 @@ import lombok.NoArgsConstructor;
 public class Bank {
 
     @Id
-    @SequenceGenerator(name = "bank_seq",initialValue = 1,allocationSize = 20)
-    @GeneratedValue(strategy = GenerationType.SEQUENCE,generator = "bank_seq")
+//    @SequenceGenerator(name = "bank_seq",initialValue = 1,allocationSize = 20)
+//    @GeneratedValue(strategy = GenerationType.SEQUENCE,generator = "bank_seq")
     private int id;
     private String name;
     private int accNo;

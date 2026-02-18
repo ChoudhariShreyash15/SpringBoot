@@ -1,10 +1,14 @@
 package Interface;
 
 public interface Student {
-    abstract String a();
-    abstract String b();
+    String a();
+    String b();
     default String c(){return "run";}
     static String d(){return "sir";}
+}
+
+interface clonable extends Cloneable {
+    int run();
 }
 
 class AB implements Student {

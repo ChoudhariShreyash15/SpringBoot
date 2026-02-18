@@ -9,7 +9,5 @@ public class test {
         StringBuilder  stringBuilder1=new StringBuilder("abc");
         StringBuilder  stringBuidler2=new StringBuilder("abc");
         System.out.println(stringBuidler2.equals(stringBuilder));
-
-
     }
 }

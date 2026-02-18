@@ -19,7 +19,11 @@ class Animal {
 
 public class BuilderPattern {
     public static void main(String[] args) {
-        Animals build = Animals.builder().name("Dog").color("Black").type("Labrador").build();
+        Animal build = Animal.builder()
+                .name("Dog")
+                .color("Black")
+                .type("Labrador")
+                .build();
         System.out.println(build);
     }
 }

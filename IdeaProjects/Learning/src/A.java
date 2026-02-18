@@ -7,7 +7,7 @@ public class A {
         display(this); // passing current object
     }
 
-    public static void main(String[] args) {
+    static public void main(String[] args) {
         A a = new A();
         a.display(a);
         a.show();

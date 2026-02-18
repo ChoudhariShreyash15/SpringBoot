@@ -23,7 +23,7 @@ class Employee implements Externalizable{
     }
 
     @Override
-    public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
+    public void readExternal(ObjectInput in) throws IOException {
         id = in.readInt();
         name = in.readUTF();
         salary = in.readUTF();
