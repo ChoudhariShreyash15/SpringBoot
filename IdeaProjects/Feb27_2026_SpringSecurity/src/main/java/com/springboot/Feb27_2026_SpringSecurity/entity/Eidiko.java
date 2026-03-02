@@ -1,4 +1,4 @@
-package com.example.Aug12_SpringOCR.entity;
+package com.springboot.Feb27_2026_SpringSecurity.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -10,12 +10,11 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class AadharCard {
+public class Eidiko {
 
     @Id
-    private Long aadharNo;
-    private String name;
-    private String dob;
-    private String gender;
-    private String address;
+    private int empId;
+    private String empName;
+    private String dept;
+    private double empSalary;
 }

@@ -4,6 +4,7 @@ package com.example.SpringBoot2.modelMapper_dto.service;
 import com.example.SpringBoot2.modelMapper_dto.dto.UserDTO;
 import com.example.SpringBoot2.modelMapper_dto.entity.UserEntity;
 import org.modelmapper.ModelMapper;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service

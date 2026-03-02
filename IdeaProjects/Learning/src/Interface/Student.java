@@ -55,12 +55,20 @@ class CA implements Student {
     }
 }
 
+abstract class D implements Student{
+    @Override
+    public String a() {
+        return "";
+    }
+}
+
 class Main {
     public static void main(String[] args) {
         AB ab = new AB();
         System.out.println(ab.c());
         System.out.println(Student.d());
         Student s = new AB();
+//        Student s1 = new D(); //Will throw an Error to override all default methods
     }
     static class z {
     }
