@@ -1,6 +1,7 @@
-package com.example.Sept9_SpringSecurity.security;
+package com.example.Sept9_SpringSecurity.config;
 
 
+import com.example.Sept9_SpringSecurity.security.JwtAuthenticationFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -24,7 +25,7 @@ public class SecurityFilterChainConfig {
         httpSecurity.authorizeHttpRequests(request-> request
                         .requestMatchers("/user/**").permitAll()
                         .requestMatchers("/auth/**").permitAll()
-                        .requestMatchers("admin/**").hasAuthority("ADMIN")
+                        .requestMatchers("/admin/**").hasAuthority("ADMIN")
                         .anyRequest()
                         .authenticated());
 

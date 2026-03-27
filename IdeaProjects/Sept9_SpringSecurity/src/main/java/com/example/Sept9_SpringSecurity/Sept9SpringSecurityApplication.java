@@ -9,5 +9,4 @@ public class Sept9SpringSecurityApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(Sept9SpringSecurityApplication.class, args);
 	}
-
 }

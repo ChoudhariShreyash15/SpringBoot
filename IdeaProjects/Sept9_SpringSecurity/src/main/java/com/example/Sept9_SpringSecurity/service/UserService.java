@@ -18,6 +18,8 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -26,6 +28,7 @@ public class UserService {
 
     @Autowired
     private PasswordEncoder passwordEncoder;
+
     @Autowired
     private UserRepository userRepository;
 
@@ -43,10 +46,18 @@ public class UserService {
 
     public User registerUser(UserRequestDto user)
     {
-        Set<Role> roles = user.getRoles().stream()
-                .map(role -> roleRepository.findByName(String.valueOf(role))
-                        .orElseThrow(() -> new RuntimeException("Role not found: " )))
-                .collect(Collectors.toSet());
+        System.out.println(user.getRoles());
+        Set<Role> roles = new HashSet<>();
+        for (String role : user.getRoles()){
+            Role byName = roleRepository.findByName(role.toUpperCase());
+            System.out.println(byName);
+            roles.add(byName);
+        }
+        System.out.println(roles);
+//        Set<Role> roles = user.getRoles().stream()
+//                .map(role -> roleRepository.findByName(role)
+//                        .orElseThrow(() -> new RuntimeException("Role not found: " )))
+//                .collect(Collectors.toSet());
         User user1=new User();
         user1.setEmail(user.getEmail());
         user1.setPassword(passwordEncoder.encode(user.getPassword()));

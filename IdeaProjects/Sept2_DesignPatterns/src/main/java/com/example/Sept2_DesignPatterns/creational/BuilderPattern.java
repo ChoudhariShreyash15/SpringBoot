@@ -15,6 +15,15 @@ class Animal {
         this.color = color;
         this.type = type;
     }
+
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "name='" + name + '\'' +
+                ", color='" + color + '\'' +
+                ", type='" + type + '\'' +
+                '}';
+    }
 }
 
 public class BuilderPattern {

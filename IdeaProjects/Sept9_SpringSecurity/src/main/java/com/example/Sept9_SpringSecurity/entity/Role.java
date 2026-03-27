@@ -13,8 +13,8 @@ import lombok.NoArgsConstructor;
 public class Role {
 
     @Id
-    @SequenceGenerator(name = "role_seq", allocationSize = 50)
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "role_seq")
+//    @SequenceGenerator(name = "role_seq", allocationSize = 50)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer Id;
     private String name;
 }
