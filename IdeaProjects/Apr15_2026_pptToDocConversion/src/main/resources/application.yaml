@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: Apr15_2026_pptToDocConversion
+
+server:
+  port: 8900

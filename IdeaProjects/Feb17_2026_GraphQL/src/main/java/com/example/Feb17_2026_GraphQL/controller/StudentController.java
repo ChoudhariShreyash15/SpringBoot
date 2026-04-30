@@ -1,4 +1,4 @@
-package com.example.Feb17_2026_GraphQL.resolver;
+package com.example.Feb17_2026_GraphQL.controller;
 
 import com.example.Feb17_2026_GraphQL.entity.Student;
 import com.example.Feb17_2026_GraphQL.service.StudentService;

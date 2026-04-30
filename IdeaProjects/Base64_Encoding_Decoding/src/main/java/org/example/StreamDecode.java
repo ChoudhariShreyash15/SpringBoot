@@ -9,9 +9,9 @@ import java.util.Base64;
 public class StreamDecode {
 
     public static void main(String[] args) throws Exception {
-        try (InputStream in = new FileInputStream("E:\\Shreyash_1227\\Java\\IdeaProjects\\IdeaProjects\\Base64_Encoding_Decoding\\MicroservicesImage.txt");
+        try (InputStream in = new FileInputStream("E:\\Shreyash_1227\\Java\\IdeaProjects\\IdeaProjects\\Base64_Encoding_Decoding\\Doc.txt");
              InputStream base64Stream = Base64.getDecoder().wrap(in);
-             OutputStream out = new FileOutputStream("C:\\Users\\syste\\Downloads\\output1.jpg")) {
+             OutputStream out = new FileOutputStream("C:\\Users\\syste\\Downloads\\output4.docx")) {
 
             byte[] buffer = new byte[8192];
             int bytesRead;

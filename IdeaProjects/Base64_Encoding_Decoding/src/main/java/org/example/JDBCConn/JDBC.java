@@ -23,7 +23,7 @@ public class JDBC {
 
             ResultSet resultSet = stmt.executeQuery(sql);
             while (resultSet.next()) {
-                System.out.println(resultSet.getInt("id"));
+                System.out.println(resultSet.getInt("id") + " " + resultSet.getString("name") + " " + resultSet.getDouble("salary"));
             }
             System.out.println("Table Extracted Successfully");
 
