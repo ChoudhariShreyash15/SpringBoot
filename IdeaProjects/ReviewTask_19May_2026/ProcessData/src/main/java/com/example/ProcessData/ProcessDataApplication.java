@@ -1,0 +1,15 @@
+package com.example.ProcessData;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
+
+@SpringBootApplication
+@EnableScheduling
+public class ProcessDataApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ProcessDataApplication.class, args);
+	}
+
+}

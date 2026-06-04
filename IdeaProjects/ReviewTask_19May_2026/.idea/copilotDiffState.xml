@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/ProcessData/src/main/java/com/example/ProcessData/ProcessDataApplication.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/ProcessData/src/main/java/com/example/ProcessData/ProcessDataApplication.java" />
+              <option name="originalContent" value="package com.example.ProcessData;&#10;&#10;import org.springframework.boot.SpringApplication;&#10;import org.springframework.boot.autoconfigure.SpringBootApplication;&#10;&#10;@SpringBootApplication&#10;public class ProcessDataApplication {&#10;&#10;&#9;public static void main(String[] args) {&#10;&#9;&#9;SpringApplication.run(ProcessDataApplication.class, args);&#10;&#9;}&#10;&#10;}&#10;" />
+              <option name="updatedContent" value="package com.example.ProcessData;&#10;&#10;import org.springframework.boot.SpringApplication;&#10;import org.springframework.boot.autoconfigure.SpringBootApplication;&#10;import org.springframework.scheduling.annotation.EnableScheduling;&#10;&#10;@SpringBootApplication&#10;@EnableScheduling&#10;public class ProcessDataApplication {&#10;&#10;&#9;public static void main(String[] args) {&#10;&#9;&#9;SpringApplication.run(ProcessDataApplication.class, args);&#10;&#9;}&#10;&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

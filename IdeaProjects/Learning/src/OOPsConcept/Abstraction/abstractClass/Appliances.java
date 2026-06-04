@@ -14,21 +14,21 @@ class Fan extends Appliances{
     }
 }
 
-class Light extends Appliances {
-    void turnOn() {
-        System.out.println("Light is glowing");
-    }
+abstract class Light extends Appliances {
+//    void turnOn() {
+//        System.out.println("Light is glowing");
+//    }
 }
 
 class Main {
     public static void main(String[] args) {
         Appliances fan = new Fan();
-        Appliances light = new Light();
+//        Appliances light = new Light();
 
         fan.turnOn();
         fan.turnOff();
 
-        light.turnOn();
-        light.turnOff();
+//        light.turnOn();
+//        light.turnOff();
     }
 }

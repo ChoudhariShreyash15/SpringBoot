@@ -13,6 +13,6 @@ public class AdminService {
 
     public User getUserById(int id)
     {
-        return userRepository.findById(id).get();
+        return userRepository.findById(id).orElse(null);
     }
 }
