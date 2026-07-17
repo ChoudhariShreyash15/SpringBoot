@@ -2,10 +2,10 @@ package com.example.Nov21_Spring_BeanLifeCycle.SpringConfiguration.Annotation.re
 
 @FunctionalInterface
 public interface Vehicle {
-    abstract String carType();
+    String carType();
 
-    default String car(){
-        return "default call hote";
-    }
-    static void car1(){}
+//    default String car(){
+//        return "default call hote";
+//    }
+//    static void car1(){}
 }

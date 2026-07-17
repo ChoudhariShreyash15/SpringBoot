@@ -12,7 +12,7 @@
 	</parent>
 
 	<groupId>com.example</groupId>
-	<artifactId>Nov21_Spring_BeanLifeCycle</artifactId>
+	<artifactId><![CDATA[Nov21_Spring_Configuration&BeanLifeCycle]]></artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Nov21_Spring_BeanLifeCycle</name>
 	<description>Spring Configuration, Bean Life Cycle, Spring MVC project for Spring Boot</description>

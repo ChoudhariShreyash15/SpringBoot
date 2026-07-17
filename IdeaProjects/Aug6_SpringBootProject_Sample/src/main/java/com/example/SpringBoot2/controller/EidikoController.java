@@ -1,7 +1,6 @@
 package com.example.SpringBoot2.controller;
 
 import com.example.SpringBoot2.entity.Eidiko;
-import com.example.SpringBoot2.repo.EidikoRepo;
 import com.example.SpringBoot2.response.ResponseHandler;
 import com.example.SpringBoot2.service.EidikoServices;
 import com.fasterxml.jackson.core.JsonProcessingException;

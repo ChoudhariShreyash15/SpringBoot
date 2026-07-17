@@ -29,7 +29,4 @@ public class Vehicle {
 //        petrolEngine.info();
 //        dieselEngine.info();
     }
-
-    public void info() {
-    }
 }

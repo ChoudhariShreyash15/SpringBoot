@@ -24,6 +24,7 @@ class Q1{
         System.out.println(rollNum + studName + totalMarks);
     }
 }
+
 class StudentsDemo{
     public static void main(String[] args){
         Q1 s = new Q1();
